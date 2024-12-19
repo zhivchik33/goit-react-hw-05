@@ -1,0 +1,18 @@
+.movieSearch {
+  height: 35px;
+  width: 250px;
+}
+
+.btn {
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
+  color: bisque;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
