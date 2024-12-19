@@ -1,5 +1,5 @@
 import axios from "axios";
-const token = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwODhhNzI2OWMxYWFkMGM2ZWI2NWU5ZTZjOWUzOTNhYSIsIm5iZiI6MTcyOTI4NDA5Ni4yNzEyNTgsInN1YiI6IjY3MTJjNjgxOGU4NDQ2NTdiN2ZiNGRiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-kdaN08CGoRG6TycWjBU7okuN3szxYs5VwPe0Eh0pfc';
+const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMjhlZmZiODEzNTFmZDc4NGE3YzRkNjE4MmI4YWI0OSIsIm5iZiI6MTczNDY0NTMzMS45NzksInN1YiI6IjY3NjQ5NjUzODBkY2Q4Zjc4ZjgyMjRjMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jkgSGNgvKK8QTB75qdWHMpt2gXoqB0WwZjCcYC-mDls";
 const movieInstance = axios.create({
   baseURL: "https://api.themoviedb.org/3",
 
